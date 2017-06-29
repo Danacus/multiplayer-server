@@ -4,7 +4,7 @@
 	"description": "Colyseus Server - Minimal example",
 	"main": "index.js",
 	"scripts": {
-		"start": "pm2 start index.js --node-args='--harmony --use-strict'",
+		"start": "node --harmony ./index.js",
 		"start-dev": "nodemon --harmony ./index.js localhost 3553"
 	},
 	"author": "",
